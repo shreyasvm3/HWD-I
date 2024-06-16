@@ -1,0 +1,13 @@
+Degrees of freedom: total, SC, Cl. (1:NSC are SC dofs, NSC+1:NSC+NCl are Cl dofs)
+2	1 	1  	
+List the diagonal elements of the mass matrix in a row
+1.0     25.0          
+List the coherent state parameters (qi,pi,gammai) a row for each dof
+1.0	0.0	1.414	   
+1.0     0.0     8.333       
+!Coupling b/w two oscillators
+input-couplingd0
+Timestep, number of timesteps, energy conservation & symp tolerance
+0.01	8000	1e-5	1e-3
+Number of MonteCarlo points
+1.dinput-ntraj

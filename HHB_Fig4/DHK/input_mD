@@ -1,0 +1,21 @@
+Degrees of freedom ( for nonadiabatic model enter -1 )
+2
+Level of theory ( 1-DHK, 2-HUS, 3-MQC, 4-LSC, 5-aMQC )
+1
+Implementation ( 1-DoubleForward, 2-ForwardBackward )
+1
+Type of observable ( 1-Position, 2-Momentum )
+1
+Model Potentials ( 1-Harmonic, 2-AnHarmonic )
+2
+List the diagonal elements of the mass matrix in a row
+1.0     25.0          
+List the coherent state and tuning parameters (qi, pi, g0, gt, cq, cp); a row for each dof
+1.0	0.0	1.414	1.414    10.0 	10.0
+1.0     0.0     8.333   8.333    10.0   10.0
+Coupling constant for x/y dofs
+input-couplingd0
+Timestep, number of timesteps, energy conservation tolerance
+0.05	1600	1e-5
+Number of MonteCarlo points
+1.dinput-ntraj

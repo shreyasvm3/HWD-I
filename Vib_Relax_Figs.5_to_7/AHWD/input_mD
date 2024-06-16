@@ -1,0 +1,14 @@
+Degrees of freedom: total, SC, Cl. (1:NSC are SC dofs, NSC+1:NSC+NCl are Cl dofs)
+input-ndof	1 	input-nb  	
+Morse parameters: Mass (au), De (cm-1), Re (Ang), alpha(Ang^-1)
+1.165d5		1.2547d4	2.6663d0	1.8576d0
+Temperature (K), cut-off frequency (cm-1), friction coefficient (eta)
+input-t.d0  20.d0   input-etad0
+Initial coherent state center for Morse (q in Ang, p in au)
+2.4d0	0.d0
+Time grid: time step (fs) , number of steps; Energy tolerance, Symp tolerance
+2.d0   800   1e-5   1e-3
+Grid for R dist (Rmin, Rmax, NR) in Ang
+2.d0  4.d0  800
+Number of trajectories
+1.dinput-ntraj
