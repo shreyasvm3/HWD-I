@@ -1,4 +1,4 @@
-This repository contains code for the Adiabatic Hybrid Wigner Dynamics (AHWD) method introduced in https://arxiv.org/abs/2405.20493.
+This repository contains code for the Adiabatic Hybrid Wigner Dynamics (AHWD) method introduced in https://arxiv.org/abs/2405.20493, which is the first in a series of 2 papers on HWD.
 
 AHWD code for three different models: 2D Harmonic oscillators, Heavy Harmonic Bath, and Vibrational Relaxation of Morse oscillator,
 details can be found in the paper. 
